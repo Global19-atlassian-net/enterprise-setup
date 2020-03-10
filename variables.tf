@@ -6,6 +6,10 @@ variable "aws_secret_key" {
   description = "Secret key used to create instances"
 }
 
+variable "aws_session_token" {
+  description = "Session token used to create instances - required for environments with MFA enforced"
+}
+
 variable "aws_region" {
   description = "Region where instances get created"
 }
