@@ -92,4 +92,3 @@ resource "aws_autoscaling_group" "clients_asg" {
     propagate_at_launch = "true"
   }
 }
-
